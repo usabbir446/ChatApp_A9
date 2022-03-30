@@ -1,0 +1,759 @@
+{
+	"intents": [{
+			"tag": "greeting",
+			"patterns": [
+				"Hi",
+				"Hey",
+				"Hlw",
+				"Is anyone there?",
+				"Hello",
+				"Good day"
+			],
+			"responses": [
+				"Hey :-)",
+				"Hello, thanks for visiting",
+				"Hi there, what can I do for you?",
+				"Hi there, how can I help?"
+			]
+		},
+
+
+
+		{
+			"tag": "Admission",
+			"patterns": ["Can you tell me the Admission date of 2022?",
+				"Admission date of 2022?",
+				"when is the next admission date?",
+				"Admission test 2022?"
+			],
+			"responses": ["27 March 2022"]
+		},
+
+
+
+
+		{
+			"tag": "Greetings",
+			"patterns": ["How are you?"],
+			"responses": ["I'm fine, How are you?"]
+		},
+
+		{
+			"tag": "goodbye",
+			"patterns": ["Bye", "See you later", "Goodbye"],
+			"responses": [
+				"See you later, thanks for visiting",
+				"Have a nice day",
+				"Bye! Come back again soon."
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+			"responses": ["Happy to help!", "Any time!", "My pleasure"]
+		},
+
+		{
+
+
+			"tag": "Head of the Department",
+			"patterns": [
+				"Who is the hod?",
+				"Who is the head of the Department?",
+				"Who is the senior most officer?"
+
+
+			],
+			"responses": [
+				"Brig Gen Md. Abdur Razzak, SUP, psc"
+			]
+		},
+
+		{
+			"tag": "Head of the Department email",
+			"patterns": [
+				"What is the email of the head of the department",
+				"What is the mail of the head of the department",
+				"What is the email of the HOD?",
+				"What is the email of the hod?",
+				"What is the mail of the hod?",
+				"Contact details of HOD?",
+				"Contact details of the head of the department?",
+				"Contact details of the of the department head?"
+
+			],
+			"responses": [
+				"head@cs.mist.ac.bd"
+			]
+		},
+
+
+		{
+
+			"tag": "Office Clerk",
+			"patterns": [
+				"contact details of office clerk",
+				"contact details of office",
+				"contact number of office",
+				"contact phone number of office"
+			],
+			"responses": [
+				"01769023838"
+			]
+		},
+
+
+		{
+
+			"tag": "Necessary Documents for Admission",
+			"patterns": [
+				"What all are the necessary documents needed for admission?",
+				"necessary documents needed for admission?",
+				"necessary papers needed for admission?"
+			],
+			"responses": [
+				"SSC Certificate, HSC Certificate, SSC marksheet, HSC marksheet, NID Copy, MIST Admission Form(Att)"
+			]
+		},
+
+
+		{
+
+			"tag": "Subjects",
+			"patterns": [
+				"What all are the subjects in first year?",
+				"Subject list for first year",
+				"courses for first year"
+
+			],
+			"responses": [
+				"Programming Fundamentals, Discrete Mathmatics, Physics, C Language, Chemistry"
+			]
+		},
+
+
+		{
+			"tag": "Programming Language",
+			"patterns": [
+				"Which programming language is taught?",
+				"Which programming language i will learn?",
+				"programming language?",
+				"base programming language?",
+				"Core programming language?"
+			],
+			"responses": [
+				"C++, Python"
+			]
+		},
+
+		{
+			"tag": "Total Fee for Admission",
+			"patterns": [
+				"Total fee for 4 years?",
+				"How i have to pay in 4 years? "
+
+			],
+			"responses": [
+				"800000 Tk (Approximately)"
+			]
+		},
+
+		{
+
+			"tag": "Admission Fee",
+			"patterns": [
+				"What is the admission fee?",
+				"How much the admission fee is?",
+				"admission fee?"
+			],
+			"responses": [
+				"100000"
+			]
+		},
+
+
+		{
+			"tag": "Semester Fee",
+			"patterns": [
+				"What is the semester fee?",
+				"semester fee?",
+				"semester fee for each semester?"
+			],
+			"responses": [
+				"45000"
+			]
+		},
+
+		{
+			"tag": "Contests Hosted by CSE Department",
+			"patterns": [
+				"What all are the contests in cse department?",
+				"contests in cse department?",
+				"CSE department competition?"
+			],
+			"responses": ["NCPC, Hackathon, App Development, Project Showcasing, Programming Contest "]
+		},
+
+		{
+			"tag": "Clubs of CSE Department",
+			"patterns": [
+				"What all are the clubs in CSE Department?",
+				"Clubs in cse department?",
+				"All clubs of cse department?",
+				"All clubs of cse department?"
+			],
+			"responses": ["Computer Club of MIST, RoboMIST"]
+		},
+
+
+		{
+			"tag": "Brig Gen Razzak Sir",
+			"patterns": [
+				"Brig gen Razzak sir available?",
+				"Brig gen Razzak sir's contact number?",
+				"Brig gen Razzak sir's er number?",
+				"Brig gen Razzak sir's details?",
+				"Brig gen Razzak sir's email?",
+				"Brig gen Razzak sir's mail address?"
+			],
+
+			"responses": ["Brig Gen Md. Abdur Razzak, SUP, PSC, Email: head@cse.mist.ac.bd, Phone: 01769-023916"]
+		},
+
+		{
+			"tag": "Awards of Razzak sir",
+			"patterns": [
+				"Awards of Brig gen razzak sir?",
+				"What all are the awards of Brig Gen Razzak sir?",
+				"What all are the awards of Brig Gen Razzak sir?",
+				"awards of Brig Gen Razzak sir?",
+				"Brig gen Razzak sir's awards?"
+			],
+
+			"responses": ["3rd position and honors marks in B.Sc. Engineering, 1st MSc Graduate of CSE Dept, MIST with honors marks"]
+		},
+
+		{
+			"tag": "Academic Qualifications of Razzak sir",
+			"patterns": [
+				"Academic Qualifications of Brig gen razzak sir?",
+				"What all are the Academic Qualifications of Brig Gen Razzak sir?",
+				"Academic Qualifications of Brig Gen Razzak sir?",
+				"Brig gen Razzak sir's Academic Qualifications?"
+			],
+
+			"responses": ["Master of Science in CSE, MIST, Dhaka, Bangladesh, Master of Defence Studies, BUP, Dhaka, Bangladesh, BSc (Pass), Chittagong University, Bangladesh"]
+		},
+
+
+		{
+			"tag": "Certifications of Razzak sir",
+			"patterns": [
+				"Certification of Brig gen razzak sir?",
+				"What all are the Certifications of Brig Gen Razzak sir?",
+				"Certifications of Brig Gen Razzak sir?",
+				"Brig gen Razzak sir's Certifications?"
+			],
+
+			"responses": ["ITIL (Information Technology Infrastructure Library)- Foundation, ITIL - Service Operation, ITIL - Service Transition, Prince-2 (Projects in Controlled Environments)- Foundation, CDCP (Certified Data Centre Professional),PMP (Project Management Professional),Cyber Security- NIIT, India,Reverse Egineering - Bangladesh Computer Council"]
+		},
+
+
+		{
+			"tag": "Projects of Razzak sir",
+			"patterns": [
+				"Projects of Brig gen razzak sir?",
+				"What all are the Projects of Brig Gen Razzak sir?",
+				"Projects of Brig Gen Razzak sir?",
+				"Brig gen Razzak sir's Projects?"
+			],
+
+			"responses": ["BARTA - Secure Mobile Communication App for Bangladesh Army, Advanced Battlefield Communication System for Bangladesh Army"]
+		},
+
+
+
+		{
+			"tag": "Dr. Md. Mahbubur Rahman",
+			"patterns": [
+				"Dr. Mahbub sir available?",
+				"Dr. Mahbub sir's contact number?",
+				"Dr. Mahbub sir's er number?",
+				"Dr. Mahbub sir's details?",
+				"Dr. Mahbub sir's email?",
+				"Dr. Mahbub sir's mail address?"
+			],
+
+			"responses": ["Dr. Md. Mahbubur Rahman, Email: mahbub@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+
+		{
+			"tag": "Col Shajahan Majib",
+			"patterns": [
+				"Col Majib sir available?",
+				"Colonel Majib sir available?",
+				"Col Majib sir's contact number?",
+				"Colonel Majib sir's contact number?",
+				"Col Majib sir's er number?",
+				"Col Majib sir's details?",
+				"Col Majib sir's email?",
+				"Col Majib sir's mail address?"
+			],
+
+			"responses": ["Col Shajahan Majib, Email: majib@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+		{
+			"tag": "Md. Abdus Sattar",
+			"patterns": [
+				"Md. Abdus Sattar sir available?",
+				"Md. Abdus Sattar's contact number?",
+				"Md. Abdus Sattar's er number?",
+				"Md. Abdus Sattar's details?",
+				"Md. Abdus Sattar sir's email?",
+				"Md. Abdus Sattar sir's mail address?"
+			],
+
+			"responses": ["Md. Abdus Sattar, Email: masattar@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+		{
+			"tag": "Lt. Col. Kazi Israt Zahan, psc",
+			"patterns": [
+				"Lt. Col. Kazi Israt Zahan sir available?",
+				"Lt. Col. Kazi Israt Zahan sir's contact number?",
+				"Lt. Col. Kazi Israt Zahan's er number?",
+				"Lt. Col. Kazi Israt Zahan's details?",
+				"Lt. Col. Kazi Israt Zahan's email?",
+				"Lt. Col. Kazi Israt Zahan's mail address?"
+			],
+
+			"responses": ["Lt. Col. Kazi Israt Zahan, Email: israt@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+		{
+			"tag": "Lt Col Muhammad Nazrul Islam, PhD",
+			"patterns": [
+				"Lt Col Muhammad Nazrul Islam sir available?",
+				"Lt Col Muhammad Nazrul Islam sir's contact number?",
+				"Lt Col Muhammad Nazrul Islam's er number?",
+				"Lt Col Muhammad Nazrul Islam's details?",
+				"Lt Col Muhammad Nazrul Islam's email?",
+				"Lt Col Muhammad Nazrul Islam's mail address?"
+			],
+
+			"responses": ["Lt Col Muhammad Nazrul Islam, Email: nazrul@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+		{
+			"tag": "Maj Md Mokhlesur Rahman",
+			"patterns": [
+				"Maj Md Mokhlesur Rahman sir available?",
+				"Maj Md Mokhlesur Rahman sir's contact number?",
+				"Maj Md Mokhlesur Rahman's er number?",
+				"Maj Md Mokhlesur Rahman's details?",
+				"Maj Md Mokhlesur Rahman's email?",
+				"Maj Md Mokhlesur Rahman's mail address?"
+			],
+
+			"responses": ["Maj Md Mokhlesur Rahman, Email: mokhles@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+
+		{
+			"tag": "T. M. Shahriar Sazzad, PhD",
+			"patterns": [
+				"T. M. Shahriar Sazzad PhD sir available?",
+				"T. M. Shahriar Sazzad PhD sir's contact number?",
+				"T. M. Shahriar Sazzad PhD's er number?",
+				"T. M. Shahriar Sazzad PhD's details?",
+				"T. M. Shahriar Sazzad PhD's email?",
+				"T. M. Shahriar Sazzad PhD's mail address?"
+			],
+
+			"responses": ["T. M. Shahriar Sazzad, PhD, Email: shahriar@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+
+		{
+			"tag": "Dr. MD Akhtaruzzaman",
+			"patterns": [
+				"Dr. MD Akhtaruzzaman PhD sir available?",
+				"Dr. MD Akhtaruzzaman PhD sir's contact number?",
+				"Dr. MD Akhtaruzzaman PhD's er number?",
+				"Dr. MD Akhtaruzzaman PhD's details?",
+				"Dr. MD Akhtaruzzaman PhD's email?",
+				"Dr. MD Akhtaruzzaman PhD's mail address?"
+			],
+
+			"responses": ["Dr. MD Akhtaruzzaman, PhD, Email: akhter@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+
+		{
+			"tag": "Squadron Leader Zohirul Islam",
+			"patterns": [
+				"Squadron Leader Zohirul Islam PhD sir available?",
+				"Squadron Leader Zohirul Islam PhD sir's contact number?",
+				"Squadron Leader Zohirul Islam PhD's er number?",
+				"Squadron Leader Zohirul Islam PhD's details?",
+				"Squadron Leader Zohirul Islam PhD's email?",
+				"Squadron Leader Zohirul Islam PhD's mail address?"
+			],
+
+			"responses": ["Squadron Leader Zohirul Islam, PhD, Email: zohir@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+
+		{
+			"tag": "Nusrat Sharmin, PhD",
+			"patterns": [
+				"Nusrat Sharmin madam available?",
+				"Nusrat Sharmin madam contact number?",
+				"Nusrat Sharmin er number?",
+				"Nusrat Sharmin's details?",
+				"Nusrat Sharmin's email?",
+				"Nusrat Sharmin's mail address?"
+			],
+
+			"responses": ["Nusrat Sharmin, PhD, Email: nusrat@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+
+		{
+			"tag": "Sharifa Rania Mahmud",
+			"patterns": [
+				"Sharifa Rania Mahmud madam available?",
+				"Sharifa Rania Mahmud madam contact number?",
+				"Sharifa Rania Mahmud er number?",
+				"Sharifa Rania Mahmud's details?",
+				"Sharifa Rania Mahmud's email?",
+				"Sharifa Rania Mahmud's mail address?"
+			],
+
+			"responses": ["Sharifa Rania Mahmud, Email: rania@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+
+		{
+			"tag": "Rania madams educational background",
+			"patterns": [
+				"Can you tell me Asst prof rania madams university?",
+				"Can you tell me Asst prof rania madams educational background?",
+				"Can you tell me Asst prof rania madams bsc and msc?"
+			],
+
+			"responses": ["B.Sc. in MIST, M.Sc. in BUET"]
+		},
+
+
+		{
+			"tag": "Rania madams research domain",
+			"patterns": [
+				"Can you tell me Asst prof rania madams research domain?",
+				"Can you tell me the research domains of Asst prof rania madam?"
+			],
+
+			"responses": ["Bioinformatics, Networking, Database Management System and Meta-heuristics"]
+		},
+
+
+
+		{
+			"tag": "Rania madams awards",
+			"patterns": [
+				"Can you tell me Asst prof rania madams awards?",
+				"Can you tell me the awards of Asst prof rania madam?",
+				"Can you tell me honours of Asst prof rania madam?"
+			],
+
+			"responses": ["MIST Commandant’s List of honour – 2008, MIST Commandant’s List of honour – 2007, MIST Dean’s List of honour – 2006, University Merit Scholarship MIST"]
+		},
+
+
+		{
+			"tag": "Rania madams projects",
+			"patterns": [
+				"Can you tell me Asst prof rania madams projects?",
+				"Can you tell me the projects of Asst prof rania madam",
+				"Can you tell me Asst prof rania madams projects?"
+			],
+
+			"responses": ["MIST Accounting Management system, Recipe Book,  Contact Info, MIST student Database, Education Online, Job Study Portal, 4 bit Microprocessor, Water Level Indicator with Automated Pump Switcher"]
+		},
+
+
+
+		{
+			"tag": "Nuzhat Tabassum",
+			"patterns": [
+				"Nuzhat Tabassum madam available?",
+				"Nuzhat Tabassum madam contact number?",
+				"Nuzhat Tabassum er number?",
+				"Nuzhat Tabassum's details?",
+				"Nuzhat Tabassum's email?",
+				"Nuzhat Tabassum's mail address?"
+			],
+
+			"responses": ["Nuzhat Tabassum, Email: nuzhat@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+
+		{
+			"tag": "Tasmiah Tamzid Anannya",
+			"patterns": [
+				"Tasmiah Tamzid Anannya madam available?",
+				"Tasmiah Tamzid Anannya madam contact number?",
+				"Tasmiah Tamzid Anannya er number?",
+				"Tasmiah Tamzid Anannya's details?",
+				"Tasmiah Tamzid Anannya's email?",
+				"Tasmiah Tamzid Anannya's mail address?"
+			],
+
+			"responses": ["Tasmiah Tamzid Anannya, Email: tasmiah_anannya@cse.mist.ac.bd, Phone: 01779474371"]
+		},
+
+
+		{
+			"tag": "Tasmiah Tamzid Anannya Educational Background",
+			"patterns": [
+				"Tasmiah Tamzid Anannya Educational Background?",
+				"Anannya madam's Educational Background?",
+				"Tasmiah madams Educational Background?",
+				"Tasmiah Tamzid Anannya's university?",
+				"tasmia's bsc?",
+				"Tasmiah Tamzid Anannya's masters?"
+			],
+
+			"responses": ["B.Sc. in MIST, M.Sc. in BUET"]
+		},
+
+		{
+			"tag": "Tasmiah Tamzid Anannya Awards",
+			"patterns": [
+				"Tasmiah Tamzid Anannya's awards?",
+				"Awards of ananya madam?",
+				"Tasmiah madams awards?",
+				"Tasmiah Tamzid Anannya's awards?",
+				"tasmia's awards?",
+				"tasmia's details?",
+				"Tasmiah Tamzid Anannya's achievements?"
+			],
+
+			"responses": ["MIST Deans List of honour – 2013, MIST Commandants List of honour – 2012, MIST Commandants List of honour – 2011,  University Merit Scholarship"]
+		},
+
+
+
+
+
+		{
+			"tag": "Major Md Mahbubar Rahman",
+			"patterns": [
+				"Major Md Mahbubar Rahman available?",
+				"Major Md Mahbubar Rahman contact number?",
+				"Major Md Mahbubar Rahman er number?",
+				"Major Md Mahbubar Rahman's details?",
+				"Major Md Mahbubar Rahman email?",
+				"Major Md Mahbubar Rahman's mail address?"
+			],
+
+			"responses": ["Major Md Mahbubar Rahman, Email: mahbub@mist.ac.bd, Phone: 0123456789"]
+		},
+
+		{
+			"tag": "Rubyeat Islam",
+			"patterns": [
+				"Rubyeat Islam available?",
+				"Rubyeat Islam contact number?",
+				"Rubyeat Islam er number?",
+				"Rubyeat Islam's details?",
+				"Rubyeat Islam email?",
+				"Rubyeat Islam's mail address?"
+			],
+
+			"responses": ["Rubyeat Islam, Email: rubyeat@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+		{
+			"tag": "Zinia Sultana",
+			"patterns": [
+				"Zinia Sultana available?",
+				"Zinia Sultana's contact number?",
+				"Zinia Sultana er number?",
+				"Zinia Sultana's details?",
+				"Zinia Sultana email?",
+				"Zinia Sultana's mail address?"
+			],
+
+			"responses": ["Zinia Sultana, Email: ziniasultana@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+		{
+			"tag": "Iyolita Islam",
+			"patterns": [
+				"Iyolita Islam available?",
+				"Iyolita Islam's contact number?",
+				"Iyolita Islam er number?",
+				"Iyolita Islam's details?",
+				"Iyolita Islam's email?",
+				"Iyolita Islam's mail address?"
+			],
+
+			"responses": ["Iyolita Islam, Email:  iyolitaislam@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+		{
+			"tag": "Raiyan Rahman",
+			"patterns": [
+				"Raiyan Rahman available?",
+				"Raiyan Rahman's contact number?",
+				"Raiyan Rahman er number?",
+				"Raiyan Rahman's details?",
+				"Raiyan Rahman's email?",
+				"Raiyan Rahman's mail address?"
+			],
+
+			"responses": ["Iyolita Islam, Email:  iyolitaislam@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+		{
+			"tag": "Muhaimin Bin Munir",
+			"patterns": [
+				"Muhaimin Bin Munir available?",
+				"Muhaimin Bin Munir's contact number?",
+				"Muhaimin Bin Munir er number?",
+				"Muhaimin Bin Munir's details?",
+				"Muhaimin Bin Munir's email?",
+				"Muhaimin Bin Munir's mail address?"
+			],
+
+			"responses": ["Muhaimin Bin Munir, Email: muhaimin@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+		{
+			"tag": "Swapnil Biswas",
+			"patterns": [
+				"Swapnil Biswas available?",
+				"Swapnil Biswas's contact number?",
+				"Swapnil Biswas er number?",
+				"Swapnil Biswas's details?",
+				"Swapnil Biswas's email?",
+				"Swapnil Biswas's mail address?"
+			],
+
+			"responses": ["Swapnil Biswas, Email: swapnil@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+		{
+			"tag": "Nafiz Imtiaz Khan",
+			"patterns": [
+				"Nafiz Imtiaz Khan available?",
+				"Nafiz Imtiaz Khan's contact number?",
+				"Nafiz Imtiaz Khan er number?",
+				"Nafiz Imtiaz Khan's details?",
+				"Nafiz Imtiaz Khan's email?",
+				"Nafiz Imtiaz Khan's mail address?"
+			],
+
+			"responses": ["Nafiz Imtiaz Khan, Email:  nafiz@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+		{
+			"tag": "Sumaiya Nuha Mustafina",
+			"patterns": [
+				"Sumaiya Nuha Mustafina available?",
+				"Sumaiya Nuha Mustafina's contact number?",
+				"Sumaiya Nuha Mustafina er number?",
+				"Sumaiya Nuha Mustafina's details?",
+				"Sumaiya Nuha Mustafina's email?",
+				"Sumaiya Nuha Mustafina's mail address?"
+			],
+
+			"responses": ["Sumaiya Nuha Mustafina, Email: sumaiyamustafina@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+
+		{
+			"tag": "Shahriar Rahman Khan",
+			"patterns": [
+				"Shahriar Rahman Khan available?",
+				"Shahriar Rahman Khan's contact number?",
+				"Shahriar Rahman Khan er number?",
+				"Shahriar Rahman Khan's details?",
+				"Shahriar Rahman Khan's email?",
+				"Shahriar Rahman Khan's mail address?"
+			],
+
+			"responses": ["Shahriar Rahman Khan, Email: shahriarkhan@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+		{
+			"tag": "Md. Mustaqim Abrar",
+			"patterns": [
+				"Md. Mustaqim Abrar available?",
+				"Md. Mustaqim Abrar's contact number?",
+				"Md. Mustaqim Abrar er number?",
+				"Md. Mustaqim Abrar's details?",
+				"Md. Mustaqim Abrar's email?",
+				"Md. Mustaqim Abrar's mail address?"
+			],
+
+			"responses": ["Md. Mustaqim Abrar, Email: abrar@cse.mist.ac.bd, Phone: 0123456789"]
+		},
+
+		{
+			"tag": "Md Shadman Aadeeb ",
+			"patterns": [
+				"Md Shadman Aadeeb  available?",
+				"Md Shadman Aadeeb's contact number?",
+				"Md Shadman Aadeeb  er number?",
+				"Md Shadman Aadeeb's details?",
+				"Md Shadman Aadeeb's email?",
+				"Md Shadman Aadeeb's mail address?"
+			],
+
+			"responses": ["Md Shadman Aadeeb , Email: aadeeb@cse.mist.ac.bd, Phone: 01712299121"]
+		},
+
+		{
+			"tag": "Shadman Aadeeb sirs educational background",
+			"patterns": [
+				"Can you tell me Shadman Aadeeb sirs university?",
+				"Can you tell me Shadman Aadeeb sirs educational background?",
+				"Can you tell me Shadman Aadeeb sirs bsc?"
+			],
+
+			"responses": ["B.Sc. in MIST"]
+		},
+
+
+		{
+			"tag": "Shadman Aadeeb sirs awards",
+			"patterns": [
+				"Can you tell me Shadman Aadeeb sirs awards?",
+				"Can you tell me the awards of Shadman Aadeeb sir?",
+				"Shadman Aadeeb sirs awards?"
+			],
+
+			"responses": ["Champion in the application category of the Medical Robotics Challenge for Contagious Diseases, organized by Imperial College London, Champion in the creative app contest of the “Tri Robo Cup”, MIST Dean’s List of honour, MIST Commandant’s List of honour, MIST Commandant’s List of honour, University Merit Scholarship"]
+		},
+
+		{
+			"tag": "Shadman Aadeeb sirs research interest",
+			"patterns": [
+				"Can you tell me Shadman Aadeeb sirs research interest?",
+				"Can you tell me the research domains of Shadman Aadeeb sir?",
+				"Can you tell me Shadman Aadeeb sirs research domain?"
+			],
+
+			"responses": ["Human Computer Interaction, Machine Learning, Deep Learning ,Computer Vision, Digital Image Processing, IoT"]
+		}
+
+
+
+
+
+	]
+}
